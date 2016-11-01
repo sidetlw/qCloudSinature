@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931D437E7A35884E7BA9315B /* libPods-qCloudSinature.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBAB3795C0713B4E33D2872 /* libPods-qCloudSinature.a */; };
+		9687ABCF1DB4F8F800C1838B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687ABCE1DB4F8F800C1838B /* main.m */; };
+		9687ABD21DB4F8F800C1838B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687ABD11DB4F8F800C1838B /* AppDelegate.m */; };
+		9687ABD51DB4F8F800C1838B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687ABD41DB4F8F800C1838B /* ViewController.m */; };
+		9687ABD81DB4F8F800C1838B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9687ABD61DB4F8F800C1838B /* Main.storyboard */; };
+		9687ABDA1DB4F8F800C1838B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9687ABD91DB4F8F800C1838B /* Assets.xcassets */; };
+		9687ABDD1DB4F8F800C1838B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9687ABDB1DB4F8F800C1838B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		122F419820267A18C16539A6 /* Pods-qCloudSinature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qCloudSinature.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qCloudSinature/Pods-qCloudSinature.debug.xcconfig"; sourceTree = "<group>"; };
+		51A0E65D22234E1E8C0BA0C2 /* Pods-qCloudSinature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qCloudSinature.release.xcconfig"; path = "Pods/Target Support Files/Pods-qCloudSinature/Pods-qCloudSinature.release.xcconfig"; sourceTree = "<group>"; };
+		9687ABCA1DB4F8F800C1838B /* qCloudSinature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qCloudSinature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9687ABCE1DB4F8F800C1838B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9687ABD01DB4F8F800C1838B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9687ABD11DB4F8F800C1838B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9687ABD31DB4F8F800C1838B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9687ABD41DB4F8F800C1838B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9687ABD71DB4F8F800C1838B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9687ABD91DB4F8F800C1838B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9687ABDC1DB4F8F800C1838B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9687ABDE1DB4F8F800C1838B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBAB3795C0713B4E33D2872 /* libPods-qCloudSinature.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qCloudSinature.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9687ABC71DB4F8F800C1838B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931D437E7A35884E7BA9315B /* libPods-qCloudSinature.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA5708170505CEC237FB082 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				122F419820267A18C16539A6 /* Pods-qCloudSinature.debug.xcconfig */,
+				51A0E65D22234E1E8C0BA0C2 /* Pods-qCloudSinature.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9687ABC11DB4F8F800C1838B = {
+			isa = PBXGroup;
+			children = (
+				9687ABCC1DB4F8F800C1838B /* qCloudSinature */,
+				9687ABCB1DB4F8F800C1838B /* Products */,
+				4DA5708170505CEC237FB082 /* Pods */,
+				D82742ABDDD60FB48442A6A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9687ABCB1DB4F8F800C1838B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9687ABCA1DB4F8F800C1838B /* qCloudSinature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9687ABCC1DB4F8F800C1838B /* qCloudSinature */ = {
+			isa = PBXGroup;
+			children = (
+				9687ABD01DB4F8F800C1838B /* AppDelegate.h */,
+				9687ABD11DB4F8F800C1838B /* AppDelegate.m */,
+				9687ABD31DB4F8F800C1838B /* ViewController.h */,
+				9687ABD41DB4F8F800C1838B /* ViewController.m */,
+				9687ABD61DB4F8F800C1838B /* Main.storyboard */,
+				9687ABD91DB4F8F800C1838B /* Assets.xcassets */,
+				9687ABDB1DB4F8F800C1838B /* LaunchScreen.storyboard */,
+				9687ABDE1DB4F8F800C1838B /* Info.plist */,
+				9687ABCD1DB4F8F800C1838B /* Supporting Files */,
+			);
+			path = qCloudSinature;
+			sourceTree = "<group>";
+		};
+		9687ABCD1DB4F8F800C1838B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9687ABCE1DB4F8F800C1838B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82742ABDDD60FB48442A6A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBAB3795C0713B4E33D2872 /* libPods-qCloudSinature.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9687ABC91DB4F8F800C1838B /* qCloudSinature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9687ABE11DB4F8F800C1838B /* Build configuration list for PBXNativeTarget "qCloudSinature" */;
+			buildPhases = (
+				B219F9D25E038EFE1B41BD38 /* [CP] Check Pods Manifest.lock */,
+				9687ABC61DB4F8F800C1838B /* Sources */,
+				9687ABC71DB4F8F800C1838B /* Frameworks */,
+				9687ABC81DB4F8F800C1838B /* Resources */,
+				E8F61A9FAB198B1C98BEA4B8 /* [CP] Embed Pods Frameworks */,
+				AC1868B35637BEE8C25D9667 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qCloudSinature;
+			productName = qCloudSinature;
+			productReference = 9687ABCA1DB4F8F800C1838B /* qCloudSinature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9687ABC21DB4F8F800C1838B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Longwei;
+				TargetAttributes = {
+					9687ABC91DB4F8F800C1838B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9687ABC51DB4F8F800C1838B /* Build configuration list for PBXProject "qCloudSinature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9687ABC11DB4F8F800C1838B;
+			productRefGroup = 9687ABCB1DB4F8F800C1838B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9687ABC91DB4F8F800C1838B /* qCloudSinature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9687ABC81DB4F8F800C1838B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9687ABDD1DB4F8F800C1838B /* LaunchScreen.storyboard in Resources */,
+				9687ABDA1DB4F8F800C1838B /* Assets.xcassets in Resources */,
+				9687ABD81DB4F8F800C1838B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC1868B35637BEE8C25D9667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qCloudSinature/Pods-qCloudSinature-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B219F9D25E038EFE1B41BD38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F61A9FAB198B1C98BEA4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qCloudSinature/Pods-qCloudSinature-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9687ABC61DB4F8F800C1838B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9687ABD51DB4F8F800C1838B /* ViewController.m in Sources */,
+				9687ABD21DB4F8F800C1838B /* AppDelegate.m in Sources */,
+				9687ABCF1DB4F8F800C1838B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9687ABD61DB4F8F800C1838B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9687ABD71DB4F8F800C1838B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9687ABDB1DB4F8F800C1838B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9687ABDC1DB4F8F800C1838B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9687ABDF1DB4F8F800C1838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9687ABE01DB4F8F800C1838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9687ABE21DB4F8F800C1838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122F419820267A18C16539A6 /* Pods-qCloudSinature.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = qCloudSinature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DJI.qCloudSinature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9687ABE31DB4F8F800C1838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A0E65D22234E1E8C0BA0C2 /* Pods-qCloudSinature.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = qCloudSinature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DJI.qCloudSinature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9687ABC51DB4F8F800C1838B /* Build configuration list for PBXProject "qCloudSinature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9687ABDF1DB4F8F800C1838B /* Debug */,
+				9687ABE01DB4F8F800C1838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9687ABE11DB4F8F800C1838B /* Build configuration list for PBXNativeTarget "qCloudSinature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9687ABE21DB4F8F800C1838B /* Debug */,
+				9687ABE31DB4F8F800C1838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9687ABC21DB4F8F800C1838B /* Project object */;
+}
